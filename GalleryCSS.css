@@ -1,0 +1,47 @@
+.img-thumbnail{
+    overflow: hidden;
+}
+
+.img-thumbnail{
+    object-fit: cover;
+    transition: all 0.5s ease-out ;
+    border-color: rgba(0, 0, 0, 0.363);
+    background-color: black;
+}
+
+
+img:hover{
+    transform: scale(1.2) ;
+}
+
+.img-background{
+    background-image: radial-gradient(
+    circle,
+    #4c4c4c,
+    #484848,
+    #434343,
+    #3f3f3f,
+    #3b3b3b,
+    #373737,
+    #333333,
+    #2f2f2f,
+    #2b2b2b,
+    #272727,
+    #232323,
+    #1f1f1f
+  );
+
+}
+
+img:active{
+    transform: scale(100) ;
+}
+
+.container{
+    color: whitesmoke;
+}
+
+body{
+    position:static;
+}
+
